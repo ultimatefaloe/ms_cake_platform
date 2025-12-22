@@ -4,88 +4,163 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kiddie's Cake</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="./styles/style.css">
 
-    <!-- Google Fonts Import -->
-    <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)">
-    <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
-    <link href="[https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;500&family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@600&display=swap](https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;500&family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@600&display=swap)" rel="stylesheet">
+    <!-- Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;500;600&family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
-    <!--Navbar Section-->
-    <navbar class="navbar">
-      <div class="logo">
-        <i class="bi bi-cake2"></i><span>Kiddie's Cake</span>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a class="logo" href="#">
+          <div class="logo-icon"><i class="fa-solid fa-cake-candles"></i></div>
+          <span>Kiddie's Cake</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#">Home</a>
+          <a href="#products">Products</a>
+          <i class="bi bi-cart2"></i>
+          <a href="profile.html"><i class="bi bi-person"></i></a>
+          <a class="btn-outline" href="login.html">Sign In</a>
+        </nav>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <i class="bi bi-list"></i>
+        </button>
       </div>
-      <div class="nav-links">
-        <a href="#/">Home</a>
-        <a href="#products">Products</a>
-        <a href="cart.html"><i class="bi bi-cart2"></i></a>
-        <a href="profile.html"><i class="bi bi-person"></i></a>
-        <button class="signin-btn">Sign In</button>
-      </div>
-    </navbar>
+    </header>
 
-    <!-- main section by ore-ofe -->
-    <main>
-      <div class="Home-intro">
+    <!-- PAGE WRAPPER -->
+    <main class="page">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-text">
+          <div class="hero-icon">
+            <i class="fa-solid fa-cake-candles"></i>
+          </div>
 
-        <div class="card-1">
-
-          <img src="./images/cake-icon.png" alt="a green cake icon with candles on top">
           <h1>Kiddie's Cake</h1>
-          <p>Delightful cakes, cookies, and brownies made with <br>
-          for every special occasion. Creating sweet <br>
-          memories one bite at a time.</p>
-          <button class="browse-product"><i class="bi bi-cart2"></i> &nbsp; &nbsp;Browse Products</button>
-          <button class="view-cart">View Cart</button>
+          <p class="lead">
+            Delightful cakes, cookies, and brownies made with love for every
+            special occasion. Creating sweet memories one bite at a time.
+          </p>
 
-
+          <div class="hero-buttons">
+            <a class="btn-primary" href="#products">
+              <i class="bi bi-cart2"></i>
+              Browse Products
+            </a>
+            <a class="btn-outline" href="#cart">View Cart</a>
+          </div>
         </div>
-        <div class="card-2">
-          <img src="./images/cake pud.png" alt="a sponge cake with dark purple fruit toppings on its head">
 
+        <div class="hero-image">
+          <img src="./images/cake pud.png" alt="Birthday Cake" />
         </div>
-      </div>
+      </section>
 
-      <!-- H2 should be inside div  -->
-      <h2>Feature Treats</h2>
+      <!-- FEATURED TREATS -->
+      <section class="section" id="products">
+        <h2>Featured Treats</h2>
 
-      <div class="feature-treats" ">
-        <div class="product-lineup">
-
-          <div class="product-1">
-            <img src="./images/cake.png" alt="a chocolate cake with chocolate frosting and cream on top">
+        <div class="products">
+          <div class="product-card">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&h=600&fit=crop" alt="Rainbow Cake" />
+            </div>
+            <span class="tag">Cakes</span>
             <h3>Rainbow Birthday Cake</h3>
-            <p>Colourful layered cake perfect for birthday <br>celebrations</p>
-            <span><i>N</i>45.99</span>
-            <button>Add to Cart</button>
+            <p>Colorful layered cake perfect for birthday celebrations</p>
+            <div class="product-footer">
+              <strong>₦45.99</strong>
+              <button class="add">Add to Cart</button>
+            </div>
           </div>
 
-          <div class="product-1">
-            <img src="./images/cookies.png" alt="chocolate chip cookies with cream fillings inside">
+          <div class="product-card">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&h=600&fit=crop" alt="Cookies" />
+            </div>
+            <span class="tag">Cookies</span>
             <h3>Chocolate Chip Cookies</h3>
-            <p>Freshly bake cookies with premium <br>chocolate chips</p>
-            <span><i>N</i>12.99</span>
-            <button>Add to Cart</button>
+            <p>Freshly baked cookies with premium chocolate chips</p>
+            <div class="product-footer">
+              <strong>₦12.99</strong>
+              <button class="add">Add to Cart</button>
+            </div>
           </div>
 
-          <div class="product-1">
-            <img src="./images/brownies.png" alt="a chocolate-fudge brownie with cream on top">
+          <div class="product-card">
+            <div class="product-media">
+              <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&h=600&fit=crop" alt="Brownies" />
+            </div>
+            <span class="tag">Brownies</span>
             <h3>Fudge Brownies</h3>
-            <p>Rich dacadent, brownies with a perfect <br> fudgy texture</p>
-            <span><i>N</i>18.99</span>
-            <button>Add to Cart</button>
+            <p>Rich, decadent brownies with perfect fudgy texture</p>
+            <div class="product-footer">
+              <strong>₦18.99</strong>
+              <button class="add">Add to Cart</button>
+            </div>
           </div>
-
         </div>
-        <button class="prod-button" >View All Products</button>
-      </div>
+
+        <a class="btn-primary center-btn" href="/products">View All Products</a>
+      </section>
+
+      <!-- THIRD SECTION -->
+      <section class="section light">
+        <div>
+          <h2>Sweet Memories, Made Fresh Daily</h2>
+          <p class="section-desc">
+            At Kiddie's Cake, every celebration deserves something special. We
+            bake with love, care, and the finest ingredients.
+          </p>
+
+          <div class="features">
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-cake"></i>
+              </div>
+              <h4>Custom Cakes</h4>
+              <p>Personalized cakes for birthdays, weddings & events</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-cookie"></i>
+              </div>
+              <h4>Fresh Cookies</h4>
+              <p>Daily baked cookies with premium ingredients</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-square-fill"></i>
+              </div>
+              <h4>Rich Brownies</h4>
+              <p>Decadent brownies that melt in your mouth</p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
     </main>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/mobile-nav.js"></script>
+    <script src="https://kit.fontawesome.com/f624a0f485.js" crossorigin="anonymous"></script>
   </body>
 </html>
