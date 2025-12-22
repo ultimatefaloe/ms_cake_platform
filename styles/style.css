@@ -141,14 +141,16 @@ h2{
     margin-top: 15px;
     margin-bottom: 50px;
     color: rgb(63,121,99);
-    font-size: 30px;
+    font-size: 38px;
     font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 h3{
-    text-align: center;
-    margin-top: 25px;
+    font-size: 24px;
+    margin: 25px 0 12px 35px;
+    font-family: 'Poppins', sans-serif;
+    
     
 }
 
@@ -187,7 +189,8 @@ h3{
 
 .product-1 p{
     /* text-align: justify; */
-   margin-left: 20px;
+   margin-left: 35px;
+   line-height: 1.6em;
     
 }
 
@@ -199,9 +202,10 @@ h3{
 
 .product-1 span{
     float: left;
-    margin: 5px;
+    margin: 13px 0 0 33px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    font-size: 22px;
     color: rgb(63,121,99); 
 }
 
@@ -215,7 +219,7 @@ h3{
 
 .product-1 button{
     float: right;
-    margin: 5px;
+    margin: 5px 33px 0 0;
     padding: 13px 25px 13px 25px;
     border: none;
     border-radius: 25px;
