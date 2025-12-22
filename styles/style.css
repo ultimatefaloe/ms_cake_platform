@@ -2,7 +2,7 @@
 :root {
   --accent: #2e6e4c; /* main green */
   --accent-2: #e6f2ec; /* light green for tags */
-  --bg: #f8fafb; /* page background */
+  --bg: #f7f7dcdb; /* page background */
   --muted: #6b6b6b;
   --card-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
   --soft-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
@@ -143,6 +143,7 @@ body {
 .btn-primary:visited {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   background: var(--accent);
   color: white;
@@ -189,7 +190,7 @@ body {
 }
 
 /* SECTION */
-.section { margin: 36px 0 48px; }
+.section { margin: 46px 0; background-color: #fff; }
 .section h2 {
   font-size: 28px;
   margin-bottom: 18px;
