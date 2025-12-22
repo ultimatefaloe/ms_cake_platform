@@ -244,8 +244,8 @@ h3{
 }
 
 /* .prod-button1{
-    /* display: inline; */
-    /* text-align: center; */
+    display: inline;
+    text-align: center;
     margin-left: 680px;
     padding: 10px 25px 10px 25px;
     border-radius: 5px;
