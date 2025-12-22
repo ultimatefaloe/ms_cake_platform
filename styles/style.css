@@ -136,7 +136,7 @@ h1{
     border-radius: 25px;
 }
 
-h3{
+h2{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 50px;
@@ -146,8 +146,10 @@ h3{
     font-weight: bolder;
 }
 
-h4{
+h3{
     text-align: center;
+    margin-top: 25px;
+    
 }
 
 .product-lineup{
@@ -155,6 +157,8 @@ h4{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: -115px;
+    margin-bottom: -75px;
 }
 
 .product-1{
@@ -166,6 +170,7 @@ h4{
     transition: 1s;
     margin-left: 45px;
     margin: auto;
+    
 }
 
 .product-1:hover{
@@ -181,11 +186,15 @@ h4{
 }
 
 .product-1 p{
-    text-align: center;
+    /* text-align: justify; */
+   margin-left: 20px;
+    
 }
 
 .product-1 i{
     text-decoration: line-through double;
+    font-style: normal;
+
 }
 
 .product-1 span{
@@ -195,6 +204,14 @@ h4{
     font-weight: bold;
     color: rgb(63,121,99); 
 }
+
+/* .product-1 p{
+    float: left;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(0,0,0); 
+} */
 
 .product-1 button{
     float: right;
@@ -208,13 +225,40 @@ h4{
     color: white
 }
 
-.all-prod{
+.prod-button{
+    /* display: inline; */
+    /* text-align: center; */
+    margin-left: 680px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color:  rgb(63,121,99);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+/* .prod-button1{
+    /* display: inline; */
+    /* text-align: center; */
+    margin-left: 680px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color:  rgb(63,121,99);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+
+} */
+/* .all-prod{
     text-align: center;
     margin: 0 auto  ;
-}
-.all-products{
+} */
+/* .all-products{
     position: relative;
     margin: 5px auto;
 text-align: center;
 
-}
+} */
