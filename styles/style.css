@@ -271,3 +271,42 @@ h3{
 text-align: center;
 
 } */
+
+
+/* The Footer Styles */
+
+footer h2{
+    margin-bottom: 25px;
+}
+footer p{
+    text-align: center;
+}
+
+footer > div{
+    margin-top: 45px;
+}
+
+.footer-case{
+    display: flex;
+    justify-content: center;
+}
+
+footer h3{
+    text-align: center;
+}
+
+.footer-card{
+
+     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.30);
+    width: 330px ;
+    height: 220px   ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 1s;
+    margin-left: 45px;
+
+}
+
+.footer-card p{
+    text-align: center;
+}
