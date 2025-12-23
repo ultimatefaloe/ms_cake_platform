@@ -171,7 +171,7 @@ h3{
     border-radius: 10px;
     transition: 1s;
     margin-left: 45px;
-    margin: auto;
+    /* margin: auto; */
     
 }
 
@@ -232,7 +232,7 @@ h3{
 .prod-button{
     /* display: inline; */
     /* text-align: center; */
-    margin-left: 680px;
+    /* margin-left: 680px; */
     padding: 10px 25px 10px 25px;
     border-radius: 5px;
     border: none;
@@ -241,6 +241,11 @@ h3{
     font-weight: bold;
     color: white;
 
+}
+
+.but-case{
+    text-align: center;
+    margin: 0 auto  50px auto;
 }
 
 /* .prod-button1{
