@@ -275,15 +275,39 @@ text-align: center;
 
 /* The Footer Styles */
 
+footer{
+    margin-bottom: 80px;
+}
+
 footer h2{
     margin-bottom: 25px;
+
 }
 footer p{
     text-align: center;
+    color: rgb(63,121,99);
 }
 
 footer > div{
     margin-top: 45px;
+}
+
+footer .cake1{
+    height: 45px;
+    margin: 26px 0 0px 0;
+
+}
+
+footer .cookie1{
+    height: 90px;
+    margin: 4px 0 -22px 0;
+
+}
+
+footer .brownie1{
+    height: 79px;
+    margin: 11px 0 -18px 0;
+
 }
 
 .footer-case{
@@ -293,20 +317,28 @@ footer > div{
 
 footer h3{
     text-align: center;
+    margin: 5px 0 15px 0;
+    color: rgb(63,121,99);
 }
 
 .footer-card{
 
      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.30);
-    width: 330px ;
-    height: 220px   ;
+    width: 285px ;
+    height: 185px   ;
     box-sizing: border-box;
     border-radius: 10px;
     transition: 1s;
-    margin-left: 45px;
+    margin-left: 30px;
+    text-align: center;
 
 }
 
+.footer-card:hover{
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.30),  0 14px 11px rgba(0, 0, 0, 0.22);
+    height: 205px;
+    width: 305px;
+}
 .footer-card p{
     text-align: center;
 }
