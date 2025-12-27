@@ -1,0 +1,5 @@
+{
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.editor.showTabIndex": true,
+    "workbench.editor.showTabs": "multiple"
+}
