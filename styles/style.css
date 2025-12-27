@@ -8,6 +8,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #fdf1f1;
     min-width: none;
+    /* overflow-x: hidden; */
 }
 
 .navbar {
@@ -435,7 +436,7 @@ main{
 }
 
 .card-1{
-margin: 0 55px auto
+margin: 0 110px auto;
 }
 
 h1{
@@ -444,14 +445,14 @@ h1{
 }
 
 .card-1 img{
-    margin: 0px auto;
+    /* margin: 0 auto; */
 }
 .card-1 p{
 
     text-align: justify;
     font-family: 'Inter', sans-serif;
     font-size: 22px;
-    margin: 0px 0 0 0 auto;
+    margin: 0 0 0 0 auto;
 
 }
 
@@ -524,3 +525,10 @@ margin: 0 auto;
 }
 
 }
+
+/* @media  screen and (787px > 1410px ) {
+main{
+    margin-top: 400px;
+}
+    
+} */
